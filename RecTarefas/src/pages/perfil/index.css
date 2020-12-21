@@ -1,0 +1,43 @@
+.tituloPerfil{
+    background-color: rgb(199, 199, 199);
+    text-decoration: underline;
+    text-align: center;
+    font-size: 2em;
+    font-style: italic;
+    
+    border-radius: 0.3em;   
+}
+
+.infoPerfil{
+    border-radius: 0.3em;
+    border-color: rgb(80, 80, 80);
+    color: white;
+    background-color: rgb(44, 44, 44);
+    font-style: normal;
+    margin-bottom: 0.08em;
+}
+.tabelasize{
+    margin: auto;
+    max-width: 30rem;
+}
+
+.imagemcenter{
+    width: 25%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 1em;
+}
+.imagemcenter img{
+    width: 10em;
+    border-radius: 100px;
+    padding: 1em;
+    background-color: rgb(219, 218, 218);
+}
+.centralizar{
+    display: flex;
+    text-align: center;
+    margin: auto;
+    margin-top: 1em;
+}
